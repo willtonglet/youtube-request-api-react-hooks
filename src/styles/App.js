@@ -3,7 +3,6 @@ import styled, { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
   body {
     background-color: #161616;
-    color: #fff;
     margin: 0;
   }
 `;
@@ -18,6 +17,7 @@ export const AppStyles = styled.main`
   * {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
+    color: #fff;
   }
 
   .search-area {
